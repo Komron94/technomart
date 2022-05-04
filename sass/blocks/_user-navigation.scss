@@ -1,0 +1,26 @@
+.user-navigation__list{
+  @include reset-list;
+  display: flex;
+  font-size: 21px;
+  line-height: 21px;
+}
+.user-navigation__item{
+  flex-shrink: 0;
+}
+.user-navigation__link{
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  padding: 14px 25px 11px;
+  background-color: #ffffff;
+  &--login{
+    margin-right: 10px;
+    padding-left: 48px;
+  }
+  &:hover{
+    color: #ee3643;
+  }
+  &:active{
+    color: #c5c5c5;
+  }
+}

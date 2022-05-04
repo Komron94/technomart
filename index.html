@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technomart</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__top">
+        <div class="container site-header__container">
+            <a class="logo">
+                <span class="logo_img">TECHNOMART</span>
+            </a>
+            <form class="search-form" action="http://echo.htmlacademy.ru" method="GET">
+                <label class="visually-hidden" for="search-input">Поиск</label>
+                <input class="search-form__input" type="search" name="search" id="search-input" placeholder="Поиск"
+                       required>
+                <svg class="search-form__icon" width="19" height="19" viewBox="0 0 19 19" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path class="search-form__path" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.4115 12.3902L18.3112 16.2898C18.8969 16.8757 18.8969 17.8254 18.3112 18.4112C17.7253 18.997 16.7755 18.997 16.1897 18.4112L12.2899 14.5115C12.2782 14.4998 12.2685 14.4869 12.2588 14.474C12.2513 14.4641 12.2439 14.4542 12.2355 14.4449C11.0715 15.2122 9.67825 15.66 8.1798 15.66C4.10392 15.66 0.799805 12.3558 0.799805 8.27997C0.799805 4.20409 4.10399 0.899902 8.17988 0.899902C12.2558 0.899902 15.5599 4.20409 15.5599 8.28005C15.5599 9.77842 15.1121 11.1717 14.3448 12.3357C14.3541 12.344 14.364 12.3515 14.3738 12.3589C14.3868 12.3687 14.3997 12.3784 14.4115 12.3902ZM3.35817 8.27997C3.35817 10.9429 5.51688 13.1016 8.17988 13.1016C10.8427 13.1016 13.0015 10.9429 13.0015 8.27997C13.0015 5.61705 10.8427 3.45827 8.17988 3.45827C5.51695 3.45827 3.35817 5.61698 3.35817 8.27997Z"
+                          fill="white"/>
+                </svg>
+            </form>
+            <ul class="user-actions">
+                <li class="user-actions__item ">
+                    <a class="user-actions__link user-actions__link--bookmark" href="bookmark.html">
+                        Закладки:0
+                        <svg class="user-actions__icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                             width="35" height="25" viewBox="0 0 60.000000 60.000000"
+                             preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,60.000000) scale(0.100000,-0.100000)"
+                               fill="#ffffff" stroke="none">
+                                <path d="M147 534 c-9 -9 -9 -474 -1 -474 3 0 39 30 80 66 l74 66 74 -66 c41
+                                -36 77 -66 80 -66 4 0 5 107 4 238 l-3 237 -151 3 c-82 1 -153 -1 -157 -4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="user-actions__item ">
+                    <a class="user-actions__link user-actions__link--cart " href="cart.html">
+                        Корзина:0
+                    </a>
+                </li>
+                <li class="user-actions__item ">
+                    <a class="user-actions__link user-actions__link--order" href="order.html">
+                        Оформит заказ
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="site-header__middle container">
+        <p class="site-header__lead"><em>Интернет-магазин строителыных материалов и
+            инструментов для реморта</em></p>
+        <div class="site-header__contacts">
+            <a class="site-header__phone" href="tel:+7815550555">+7 (812) 555-05-55</a>
+            <address class="site-header__address">г. Санкт-Петербург, ул. Б. Конющенная, д. 19/8</address>
+        </div>
+        <div class="user-navigation">
+            <ul class="user-navigation__list">
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link user-navigation__link--login" href="login.html">Войти</a>
+                </li>
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link " href="registration.html">Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="site-navigation">
+        <div class="container">
+            <ul class=" site-navigation__list">
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Главная</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Компания</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Каталог</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Новость</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Спеспредложения</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Доставка</a>
+                </li>
+                <li class=" site-navigation__item"><a href="#" class=" site-navigation__link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="site-content">
+    <section class="promos">
+        <div class="container promos__container">
+            <div class="promos__left">
+                <ul class="promos__list">
+                    <li class="promos__item promos__item--material promos__item--new">
+                        <strong class="promos__title "> Материали </strong>
+                        <a class="promos__link" href="#">на любой вкус </a>
+                    </li>
+                    <li class="promos__item promos__item--instrument">
+                        <strong class="promos__title "> Инструмент </strong>
+                        <a class="promos__link" href="#">на все случи </a>
+                    </li>
+                </ul>
+                <div class="slider">
+                    <ul class="slider-list">
+                        <li class="slider__item slide">
+                            <h4 class="slide__title">Дрели </h4>
+                            <p class="slide__text">Соседи на радость</p>
+                            <a class="button slide__button" href="#">Открыть Каталог </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="promos__right">
+                <ul class="promos__list">
+                    <li class="promos__item promos__item--tech ">
+                        <strong class="promos__title "> Техника </strong>
+                        <a class="promos__link" href="#">для стройки </a>
+                    </li>
+                    <li class="promos__item promos__item--sale">
+                        <strong class="promos__title "> Скидки 50% </strong>
+                        <a class="promos__link" href="#">на 350 товаров </a>
+                    </li>
+                    <li class="promos__item promos__item--delivery">
+                        <strong class="promos__title "> Доставка </strong>
+                        <a class="promos__link" href="#">бесплатно </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

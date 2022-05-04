@@ -1,0 +1,8 @@
+.slider-list{
+  @include reset-list;
+}
+.slider__item{
+  width: 620px;
+  height: 266px;
+  background-color: #32425c;
+}

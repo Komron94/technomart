@@ -1,0 +1,23 @@
+.logo {
+  position: relative;
+  padding: 13px 56px 11px 55px;
+  background-color: gold;
+  border-bottom: 5px solid #bfa521;
+  margin-bottom: -5px;
+
+  &:hover,
+  &:focus {
+    background-color: darkgoldenrod;
+  }
+
+  &:active {
+    background-color: #bfa521;
+  }
+}
+
+.logo_img {
+  vertical-align: middle;
+  color: black;
+  width: 109px;
+  height: 19px;
+}
